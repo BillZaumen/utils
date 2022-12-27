@@ -1,5 +1,5 @@
 
-../transfertest.jar:  TransferTest.java
+../transfertest.jar:  TransferTest.java manifest.mf
 	javac -classpath /usr/share/bzdev/libbzdev.jar TransferTest.java
-	jar cf ../transfertest.jar  *.class
+	jar cfm ../transfertest.jar manifest.mf  *.class
 	rm *.class

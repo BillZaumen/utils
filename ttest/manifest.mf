@@ -1,0 +1,2 @@
+Main-Class: TransferTest
+Class-Path: ./libbzdev-desktop.jar
